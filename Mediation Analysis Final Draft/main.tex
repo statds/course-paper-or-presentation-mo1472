@@ -1,0 +1,236 @@
+\documentclass[12pt]{report}
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=cyan,
+    pdftitle={Overleaf Example},
+    pdfpagemode=FullScreen,
+    }\usepackage{graphicx}
+\usepackage{apacite}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage[utf8]{inputenc}
+\usepackage{float}
+\usepackage{setspace}
+\title{Analyzing the Relationship Between Social Media Use and Performance Using Mediation Analysis}
+\author{Mariam Obed}
+\date{December 2022}
+\begin{document}
+
+\doublespacing
+
+\maketitle
+
+\cite{baron1986moderator}
+\cite{gao2021leisure}
+\cite{hayes2009beyond}
+\cite{goforth2015university}
+\cite{mackinnon2002comparison}
+\cite{dagher2021association}
+\section*{Abstract}
+\paragraph{}
+Our memories may be changed through social media usage, which may affect memory retrieval and function. further research is
+To comprehend the connection between memory function and mental health issues,
+particularly those that could be connected to inappropriate social media use. The goal of this research was to
+determine whether there is a relationship between problematic usage of social media, depression, anxiety, stress, and sleeplessness vs
+a representative sample of Lebanese people's memory performance.
+In this cross-sectional investigation, 466 community participants were enrolled between January and May 2019.
+Participants were drawn proportionately at random from each province in Lebanon. The survey was composed of
+the Memory Awareness Rating Scale (MARS), which evaluates perceptions of memory performance, the
+a scale for problematic social media usage that assesses addiction to social media and the Hamilton depression
+In order to evaluate sadness and anxiety, the Hamilton Anxiety Scale and Beirut Distress Scale
+In order to evaluate insomnia, consider stress and the Lebanese Insomnia sale. To investigate the impact of problematic social media use on memory, a mediation analysis was conducted.
+despair, anxiety, stress, and sleeplessness as performance modifiers. Higher anxiety and poor social media usage were both substantially
+is relation to worse memory performance. The relationship between memory and improper usage of social media
+Anxiety was a mediator of performance, but not for sadness, stress, or sleeplessness. This study established a strong association between inappropriate social media use and
+to decrease memory efficiency. Future research should assess the potential processes and techniques for efficient
+awareness, particularly with regard to the next generation. \cite{dagher2021association}
+
+\section*{Introduction}
+\paragraph{}
+A third variable known as a mediator variable is used in statistical mediation analysis to try to explain a causal link between an independent variable and a dependent variable. By identifying any missing factors required to explain the link between the two variables, mediation analysis enables us to search for a more precise study of the impact the independent variable has on the dependent variable. Prior to examining the impact the mediator variable has on the dependent variable, we first evaluate the impact the independent variable has on the mediator variable. Without employing a direct link, mediation analysis allows us to take into account other elements that define the relationship between the independent and dependent variables.
+\paragraph{}
+Say if earlier studies indicated that a person's television viewing habits indicate the development of lung cancer. But according to our theory, a person's daily cigarette consumption predicts how many times they watch television, which in turn predicts the development of lung cancer. This is an illustration of a research problem that underwent mediation analysis. \cite{gao2021leisure}
+
+\section*{Data}
+466 community members were enrolled between January and May 2019 in this cross-sectional study.
+From each Lebanese province, participants were randomly selected in proportion. the survey's components were
+The Memory Awareness Rating Scale (MARS), which assesses how well people believe their memories operate,
+a scale that measures social media addiction and the Hamilton depression for inappropriate social media use
+The Hamilton Anxiety Scale and Beirut Distress Scale can both be used to assess depression and anxiety.
+Take into account stress and the Lebanese Sleeplessness sale while evaluating insomnia. The statistical software SPSS was used to analyze the data.
+The application is version 25. In a linear regression, the memory performance scale served as the dependent variable.
+
+\section*{Methods: Types of Mediation}
+\paragraph{}
+The many mediation models that may be used to examine our study topics will now be covered. Assume that X stands for the independent variable, Y for the dependent variable, and M for the mediator variable. \cite{goforth2015university}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{Screenshot (78).png}
+    \caption{Direct Effect}
+    \label{fig:Figure 1}
+\end{figure}
+
+\paragraph{}
+
+There is no need for a mediator variable to explain the direct influence of X on Y, as illustrated in Figure 1. The slope of the regression line, represented by c, can be used to describe the overall impact of X on Y.
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=.6\textwidth]{Screenshot (79).png}
+    \caption{Direct Effect Mediation}
+    \label{fig:Figure 2}
+\end{figure}
+
+\paragraph{}
+The link between the factors in indirect effect mediation is illustrated visually in Figure 2. X does not directly affect Y in indirect effect mediation theories. Instead, X influences M, and M then influences Y. In these models, the slopes of X when predicting M from X, M when predicting Y from M, and X when predicting Y from X are denoted by the letters a, b, and c, respectively. The indirect impact of X on Y through the mediator variable, M, is quantified by the product of a and b. In other words, ab = c-c'. Observe that this product is comparable to the difference between the direct effect and overall effect of X. The indirect impact may be defined as the difference between the change in Y while X is fixed and the change in M that would occur if X rose by one unit.
+\begin{figure}[H]
+  \begin{subfigure}[b]{0.4\textwidth}
+     \includegraphics[width=\textwidth]{Screenshot (80).png}
+    \caption{Figure 3a: Partial Mediation}
+    \label{fig:f1}
+  \end{subfigure}
+  \hfill
+  \begin{subfigure}[b]{0.4\textwidth}
+    \includegraphics[width=\textwidth]{Screenshot (81).png}
+    \caption{Figure 3b: Full Mediation}
+    \label{fig:f2}
+  \end{subfigure}
+  \label{fig:Figure 3}
+\end{figure}
+
+\paragraph{}
+Two further mediation models may be categorized as part of the indirect mediation model: partial mediation (as seen in Figure 3a) and complete mediation (shown in Figure 3b). The mediation model incorporates both a direct influence and an indirect effect in partial mediation. In other words, there is a strong correlation between X and M, M and Y, and X and Y. The link between X and Y can thus only be partially explained by the mediator variable. When there is complete mediation, the mediator variable totally accounts for the link between X and Y as the slope of the regression for Y on X decreases to 0.
+
+\paragraph{}
+As demonstrated in Figures 4a and 4b below, we may also employ numerous mediator variables and several mediation processes to explain the link between X and Y. Keep in mind that W denotes an additional mediator variable in addition to M. To make use of these mediation models with the inclusion of W, we need to find more regression lines and hence more slope coefficients. To fully appreciate statistical mediation analysis, we shall concentrate on simpler mediation models, such as indirect impact models.
+
+\begin{figure}[H]
+  \begin{subfigure}[b]{0.4\textwidth}
+     \includegraphics[width=\textwidth]{Screenshot (83).png}
+    \caption{Figure 4a: Multiple Mediator Model in a Single Step}
+  \end{subfigure}
+  \hfill
+  \begin{subfigure}[b]{0.5\textwidth}
+    \includegraphics[width=\textwidth]{Screenshot (82).png}
+    \caption{Figure 4b: Multiple Mediator Model in Multiple Steps}
+  \end{subfigure}
+  \label{fig:Figure 4}
+\end{figure}
+
+\paragraph{}
+Mediation implies a causal relationship between the variables. Although there will probably be some connection between the mediator, independent, and dependent variables, correlation does not indicate causality. Therefore, it is crucial that we think about what makes sense for our research issue before deciding on a model merely based on statistical significance.
+\section*{Barron and Kenny's Steps for Mediation Analysis}
+
+\paragraph{}
+Statisticians Baron and Kenny (1986) developed a technique for identifying a real mediation connection between variables. We will now express these procedures using the coefficients displayed in the aforementioned figures. \cite{hayes2009beyond}
+
+\paragraph{Step 1:}
+Regress the dependent variable (Y) on the independent variable (X)
+
+\paragraph{}
+
+We will fit the model, \begin{math}Y=b_1{}_0 +c' X+\epsilon_1\end{math}, where \begin{math}b_1{}_0\end{math} is the intercept of the regression line, c’ is the slope of the variable X, and \begin{math}\epsilon_1\end{math} is the error term of the model. The slope, c', will next be tested to see if it is significant. Be aware that even if c' is negligible, we can still move on to step 2 if we have enough prior information to suggest that X and Y are related. We would fit the model for the example from the introduction by using television viewing as X and lung cancer incidence as Y. The slope of television watching, c', would then be tested to see if it is significant. However if it is not significant, we might still continue to step 2 if prior research indicates there is a relationship between television watching and occurrence of lung cancer.
+
+\paragraph{Step 2:}
+Regress the mediator variable (M) on the independent variable (X)
+
+\paragraph{}
+We will fit the model M=\begin{math}b_2{}_0+aX+\epsilon_2\end{math}, where \begin{math}b_2{}_0\end{math} is the intercept of the regression line, a is the slope of the variable X, and \begin{math}\epsilon_2\end{math} is the error term of the model. The slope, a, will next be tested to see if it is significant. We want to know if there is a connection between X and M. If X and M are unrelated, then M is probably just another variable affecting Y. Thus, a mediation analysis wouldn't be required. If an is substantial, we'll go on to step 3 immediately. In our example, we would fit the model by having the daily cigarette consumption be M and the television viewing be X. The slope of television viewing, a, would then be tested to determine its significance. If it is significant, there may be a connection between daily cigarette use and television viewing.
+
+\paragraph{Step 3:}
+Regress the dependent variable (Y) on the independent variable (X) and mediator variable (M)
+
+\paragraph{}
+
+We will fit the model Y=\begin{math}b_3{}_0+dX+bM+\epsilon_3\end{math}, where \begin{math}b_3{}_0\end{math} is the intercept of the regression line, d is the slope of X within this new model, b is the slope of the variable M, and \begin{math}\epsilon_3\end{math} is the error term of the model. Then, we'll run a test to verify if b is meaningful. Because the mediator cannot account for the impact of X on Y if b is not substantial, we want to ascertain whether there is a link between Y and M. The effect of X on Y is diminished when M is included in the model if b is significant, indicating the existence of a mediation effect. For our illustration, we fitted the model with the variables lung cancer incidence as Y, television viewing as X, and daily cigarette consumption as M. The slope of daily cigarette use, b, would then be tested for significance. If so, smoking every day either completely accounts for the association between watching television and developing lung cancer or, when included in the model, lessens the impact of watching television on developing lung cancer.
+
+\section*{Sobel's Test for Significance}
+
+\paragraph{}
+
+To ascertain if there is a mediated link between the independent variable and the dependent variable, we apply Sobel's test. When the mediator variable is incorporated into the model, we examine if the impact of the independent variable on the dependent variable is affected less. Based on the student's t-distribution, Sobel's test employs the following test statistic:
+\paragraph{}
+\smallskip
+\LARGE\centering\begin{math}t = \frac{c - c'}{\sqrt{a^2\sigma_a^2b^2\sigma^2_b}} = \frac{ab}{\sqrt{a^2\sigma_a^2b^2\sigma^2_b}}\end{math}
+\subparagraph{}
+\normalsize
+\raggedright
+where, c-c’ = ab, the mediation effect, is the difference between the total effect and the direct effect of the independent variable; and \begin{math}\sigma_a^2\end{math} and \begin{math}\sigma_b^2\end{math} are the variances of the slope coefficients, a, and b, respectively. 
+
+\paragraph{}
+
+Sobel's test has limitations when used for significance testing. The test's low statistical power, which makes it vulnerable to small sample sizes, is one problem. According to MacKinnon et al., for the test to yield significant findings for substantial big mediation effects, the sample size must be at least 50. If there is any skewness in the data obtained, the Sobel's test may be challenging since it also demands that the data match the normal distribution. As a result, many statisticians use the bootstrap approach developed by Preacher and Hayes to assess the relevance of a model.
+\section*{Bootstrap Method for Significance}
+
+\paragraph{}
+
+The limitations of Sobel's test are removed by the bootstrap approach. This approach may be employed with small samples since it does not require the normal distribution and has a larger statistical power than Sobel's test. In order to construct a test statistic using the bootstrapping approach, several samples of the original dataset are taken. This information is then utilized to assess if the model has a large mediation effect. All statistical software packages, including R, SAS, SPSS, and STATA, provide routines that utilize bootstrapping to determine the significance of a mediation model. Hayes has specifically developed a \href{http://www.afhayes.com/index.html}{macro} that may be used in SPSS to compute bootstrapping within the context of mediation analysis.
+
+\paragraph{}
+To contrast continuous data, the Student t-test was utilized.
+variable groups in two. There was a Pearson connection.
+for continuous variables and linear correlation. The
+The means of 2 groups were compared using the student t-test.
+groups. When doing a stepwise linear regression, the memory performance scale was used as the dependent variable. In the bivariate analysis, any variables with p values less than 0.1 were deemed to be
+incorporated into the model to potentially remove
+As many misleading variables as feasible. Structural
+Equation modeling was done (using SPSS).
+Using AMOS) to evaluate the structural relationship between
+improper usage of social media, tension, sleeplessness, and anxiety,
+memory function and depression. Verification of the model's quality of fit. It was accepted when P \begin{math}<\end{math} 0.05. 466 out of 500 surveys were distributed.
+were finished and collected. Table 1 provides an overview of the participants' socioeconomic variables.
+\paragraph{}
+\includegraphics[width=0.8\textwidth]{Screenshot (107).png}
+
+\section*{Results}
+\includegraphics[width=1.2\textwidth]{Screenshot (108).png}
+\paragraph{}
+b (coefficient beta) = 0.2025, Increased problematic social media use was substantially linked to higher anxiety.
+[0.046, 0.4635], 95\% BCa CI, t (the ratio of the
+Standard error of the mean (the difference between the sample mean and the supplied number to the mean) = 2.3475, p =
+0.0106 (df = 356, R2 = 0.3702). Higher social problems
+Use of the media was not substantially linked to decreased
+even in the model with anxiety, memory performance
+b = -0.2215, 95\% BCa CI [- 0.3834, 0.02-0.05], t = -2.641.67, p = 0.0908; elevated anxiety was also statistically significant.
+b = -0.2322, 95\% BCa CI [ 0.3331, 0.1214], t = -4.255.03, p < 0.001 (df = 357, R2 = 0.11). The anxiety-related mediating impact was 21.19\% (partial).
+mediation). Another side effect of the sleeplessness is mediation
+determined to be 10.52\%.
+It is significant that the relationship between poor social media usage and memory function was not mediated by depression, stress, or sleeplessness.
+
+\section*{Discussion}
+\paragraph{}
+This study provided evidence of a crucial element.
+It had an impact on memory and served as a mediator
+between our two key factors. When this topic was previously explored, several competing theories were
+throughout the literature. On the one hand, our findings
+connected anxiety to a decline in memory function, and this
+contrary to some of the earlier findings that were published. As an illustration, some show that symptoms
+of anxiety (as opposed to signs of sadness) did
+not reveal any very negative effects on
+various features of how the memory works, as opposed to other
+mood disorder kinds. This might be taken as
+due to their "lack of motivation," other kinds of
+disturbances of the mood.
+In fact, some even claim that
+On cognition and memory, mild anxiety may have a positive effect. The other hand
+A few research, on the other hand, are consistent with our findings.
+noted that a link between worry and poor memory
+and hence poorer academic results.
+This was supported by the potential impact of various
+mood problems, such as anxiousness while speaking
+both the primary executive memory and memory
+are required for academic achievement. In reality
+Our working memory is somewhat occupied with anxiety.
+capacity, which implies less lingering working memory
+When we are considering capacity, it will be
+concerning situations.
+A distinctive quality
+of anxiety is limited regulation of troubling thoughts and attentional biases, which may result in increased concentration on
+unfavorable stimuli impairing cognitive and memory functions.
+
+\bibliographystyle{apacite}
+\bibliography{References/References}
+
+\end{document}
